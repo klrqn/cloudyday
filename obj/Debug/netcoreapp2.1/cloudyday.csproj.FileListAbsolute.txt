@@ -1,0 +1,11 @@
+/home/johndoe/code/hackerRank/cloudyday/obj/Debug/netcoreapp2.1/cloudyday.csprojAssemblyReference.cache
+/home/johndoe/code/hackerRank/cloudyday/obj/Debug/netcoreapp2.1/cloudyday.csproj.CoreCompileInputs.cache
+/home/johndoe/code/hackerRank/cloudyday/obj/Debug/netcoreapp2.1/cloudyday.AssemblyInfoInputs.cache
+/home/johndoe/code/hackerRank/cloudyday/obj/Debug/netcoreapp2.1/cloudyday.AssemblyInfo.cs
+/home/johndoe/code/hackerRank/cloudyday/bin/Debug/netcoreapp2.1/cloudyday.deps.json
+/home/johndoe/code/hackerRank/cloudyday/bin/Debug/netcoreapp2.1/cloudyday.runtimeconfig.json
+/home/johndoe/code/hackerRank/cloudyday/bin/Debug/netcoreapp2.1/cloudyday.runtimeconfig.dev.json
+/home/johndoe/code/hackerRank/cloudyday/bin/Debug/netcoreapp2.1/cloudyday.dll
+/home/johndoe/code/hackerRank/cloudyday/bin/Debug/netcoreapp2.1/cloudyday.pdb
+/home/johndoe/code/hackerRank/cloudyday/obj/Debug/netcoreapp2.1/cloudyday.dll
+/home/johndoe/code/hackerRank/cloudyday/obj/Debug/netcoreapp2.1/cloudyday.pdb
