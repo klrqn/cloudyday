@@ -35,15 +35,18 @@ namespace cloudyday
 
             var allClouds = new List<Cloud>();
             var allTowns = new List<Town>();
+            CityLine cityData = new CityLine();
 
             // location of towns
             System.Console.Write("Location of towns:\t");
             for (var i = 0; i < towns; i++)
             {
                 System.Console.Write("{0} ", p[i]);
-                var town = new Town(x[i],p[i]);
+                var town = new Town(p[i], x[i]);
                 allTowns.Add(town);
             }
+
+            cityData.Towns = allTowns;
 
             System.Console.WriteLine();
             
@@ -55,24 +58,31 @@ namespace cloudyday
                 var cloud = new Cloud(y[i]-r[i], y[i]+r[i]);
                 allClouds.Add(cloud);
             }
-
-
             System.Console.WriteLine();
+
+            cityData.Clouds = allClouds;
+
 
             foreach (var item in allTowns)
             {
-            System.Console.Write(" " + item);
-            System.Console.Write(" " + item.Location + " " + item.Population);
+                System.Console.Write(" " + item);
+                System.Console.Write(" loc: " + item.Location + " pop: " + item.Population);
             }
+            System.Console.WriteLine();
 
             foreach (var item in allClouds)
             {
-            System.Console.Write(" " + item);
-            System.Console.Write(" " + item.LowerLimit + " " + item.UpperLimit);
+                System.Console.Write(" " + item);
+                System.Console.Write(" " + item.LowerLimit + " " + item.UpperLimit);
             }
+            System.Console.WriteLine();
             // System.Console.WriteLine(r);
 
-            return 1;
+            System.Console.WriteLine("Total Population of all Towns: {0}", cityData.TotalTownPopulation());
+
+
+
+            return 0;
 
 
             // create a list of all cloudy locationscreate a list of all cloudy locations
