@@ -5,8 +5,16 @@ namespace cloudyday
 {
     public class CityLine
     {
-        public List<Cloud> Clouds;
-        public List<Town> Towns;
+        // always intialize list to an empty list
+        public readonly List<Cloud> Clouds = new List<Cloud>;
+        public readonly List<Town> Towns = new List<Town>;
+        // readonly can only be initialized this one-time.        
+
+        // public CityLine()
+        // {
+        //     Clouds = new List<Cloud>();
+        //     Towns = new List<Town>();
+        // }
 
         // get sum of all towns population.
         public long TotalPopulation(List<Town> Towns)
