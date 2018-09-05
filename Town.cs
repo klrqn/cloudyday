@@ -2,15 +2,15 @@ using System;
 
 namespace cloudyday
 {
-    public class Town
+    public struct Town
     {
-        public long Population;
-        public long Location;
+        public long Population, Location;
 
         public Town(long population, long location)
         {
-            this.Population = population;
-            this.Location = location;
+            Population = population;
+            Location = location;
         }
     }
 }
+

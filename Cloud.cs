@@ -2,7 +2,7 @@ using System;
 
 namespace cloudyday
 {
-    public class Cloud
+    public struct Cloud
     {
         public long LowerLimit;
         public long UpperLimit;
